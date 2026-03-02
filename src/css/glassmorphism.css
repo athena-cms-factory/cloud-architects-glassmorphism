@@ -80,12 +80,12 @@
     }
 }
 
-@layer components {
-    @utility glass-panel {
-        @apply backdrop-blur-[12px] border border-white/20 shadow-main;
-        background-color: var(--color-card-bg);
-    }
+@utility glass-panel {
+    @apply backdrop-blur-[12px] border border-white/20 shadow-main;
+    background-color: var(--color-card-bg);
+}
 
+@layer components {
     .btn-primary {
         @apply px-8 py-3 text-white rounded-full transition-all hover:scale-105 active:scale-95 shadow-lg backdrop-blur-md border border-white/20;
         background-color: var(--color-button-bg);
