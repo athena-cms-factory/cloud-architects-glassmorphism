@@ -81,7 +81,7 @@
 }
 
 @layer components {
-    .glass-panel {
+    @utility glass-panel {
         @apply backdrop-blur-[12px] border border-white/20 shadow-main;
         background-color: var(--color-card-bg);
     }
